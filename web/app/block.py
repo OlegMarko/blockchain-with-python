@@ -33,7 +33,7 @@ def check_integrity():
         else:
             res = 'Corrupted'
 
-        results.append({'block': prev_file, 'result': res})
+        results.append({'block': str(file-1), 'result': res})
 
     return results
 

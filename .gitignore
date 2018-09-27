@@ -1,2 +1,5 @@
 /.idea/
-/blockchain/*
+/web/app/blockchain/*
+/web/venv/
+web/app/__pycache__/
+*.pyc
